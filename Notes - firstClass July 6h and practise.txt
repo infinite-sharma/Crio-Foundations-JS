@@ -1,0 +1,71 @@
+Compiler and execution of java script program
+-> compiler
+-> Interpreter
+-> Just in time compiler
+
+Data types :
+- Primitive data types ( number, string, null, boolean etc.)
+- non primitive data types ( object, function etc)
+
+Expressions:
+
+Mathematical Operators and Precedence :
+
+Activity #2: evaluating expressions
+
+Variables:
+There are three ways we can define variables in javascript.
+1) var 2) let 3) const
+
+Primitive Data types:
+Undefined, Null, Booleans, Numbers, Strings
+-Newly added primitives : Symbols, BigInts
+
+Difference among var, let, const:
+identifier 		redeclaring	reassin
+=================================================
+var			allowed		allowed
+let			not allowed	allowed
+const			not allowed 	not allowed
+==================================================
+
+Logical Operators:
+1)strict equality : ( === ) : it will consider type of the parameter also.
+for example : 4 === "4" => false ( checking number === string)
+
+2) weak equality : ( == ) : It will consider only the value not the type.
+for example: 4 == "4" => true it will return.
+
+-----------------------------------------------------------------
+
+If else statements:
+
+
+==================================================================
+Take away for practise questions:
+-> If we perform a mathematical operation on uninitialize variable the we will get output as NaN (Not a Number).
+-> If we concatenate an uninitialize variable then an "undefined" literal will be concatenated.
+Note: In javaScript all variable and function name are case sensitive.
+
+Best Practice: Write variable names in javaScript in camelCase.
+
+"true"/"false" are considered as normal string in javascript, they won't have any special meaning in javascript.
+
+equality operator (==) :
+for JavaScript to compare two different data types (for example, numbers and strings), it must convert one type to another. This is known as Type Coercion.
+
+Strict Equality Operator ( === ) :
+unlike the equality operator, which attempts to convert both values being compared to a common type, the strict equality operator does not perform a type conversion.
+if the values being compared have different types, they are considered unequal, and strict equality operator will return false.
+
+The strict inequality operator (!==) :
+- It means "Strictly Not Equal" and returns false where strict equality would return true and vice versa. The strict inequality operator will not convert data types.
+
+Greater than or equal to operator :
+- Like the equality operator, the greater than or equal to operator will convert data types while comparing.
+
+Scope of var : Global or within the function where it declared.
+Scope of let : Within the block/expression where it declared.
+
+============================================================================
+New words: Linting, how java script compiled ?
