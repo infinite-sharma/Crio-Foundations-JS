@@ -1,0 +1,29 @@
+1) Escape Sequence:
+There are some characters which need extra care while using them as part of string for example " or \ etc.
+for using them in our string we need to use "\" (escape sequence) as prefix to them.
+
+Some other escape sequences -
+\' = single quote
+\" = double quote
+\\ = backslash
+\n = newline (or line feed)
+\r = carriage return 
+\t = tab
+
+2) String and String Methods:
+string.length : It will provide the length of String. In java script length is not a function but a property.
+
+3) Swith case:
+switch(variable){
+case <value1>:
+case <value2>:
+.
+.
+default:
+
+Note: the value will be compare with "===" strict equality. Once the condition match all the expression will be executed till break found.
+
+3) Function:
+- In java script we don't need to define return types for the function like void, int etc.
+
+
